@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
   <title>My Bootstrap Code sample</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   
@@ -24,25 +24,35 @@
             <!-- Toggle for mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="http://juanjob.info">JuanJob.info</a>
             </div>
+
             <!-- navbar collapse and toggling in to smaller menu icon for mobile diplay -->
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="http://juanjob.info">About</a>
                     </li>
                     <li>
-                        <a href="#">Link 2</a>
+                        <a href="http://juanjob.info">Link <span class="badge">2</span></a>
                     </li>
                     <li>
-                        <a href="#">Link 3</a>
+                        <a href="http://juanjob.info">Link <span class="badge">3</span></a>
                     </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li> 
+                    <a href="http://juanjob.info/assets/JuanJobRodriguezCV_02_NoPic.pdf"><span class="glyphicon glyphicon-console"></span> Console</a>
+                  </li>
+                  <li>
+                    <a href="http://juanjob.info/assets/JuanJobRodriguezCV_02_NoPic.pdf"><span class="glyphicon glyphicon-phone"></span> Phone</a>
+                  </li>
                 </ul>
             </div>
           
@@ -50,64 +60,141 @@
       
     </nav>
 
+
+  
+  <!-- Content -->
+
+
   <div class="container">
    <div class="jumbotron">
-     <h1> My family, code, Travel and Photography are my Passion and hobbies </h1>
+     
+     <h1> Travel Photography and Video  </h1>
+    
+     <p> Travel Photografy and Video <small>I love bootstrap</small> </p>
+
+      <p><a href="#" class="btn btn-success btn-lg" role="button">More &raquo;</a></p>
+      <div class="bs-example">
+
+
+    <!-- Button (Modal) -->
+    
+    <a href="#BlaModal" class="btn btn-lg btn-primary" data-toggle="modal">Launch Modal</a>
+    
+    <!-- Modal  -->
+
+    <div id="BlaModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">This is a grat Modal</h4>
+                </div>
+                <div class="modal-body">
+                    <p>I'm happy that you like this Modal</p>
+                    <p class="text-warning"><small>Make sure you love this Modal by clicking Love.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Love</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
        <code>###</code> 
    </div>
-        
-      <code> 1. Multiple headings to show use of the HTML header hierarchy</code> 
 
-      <h1 class="text-primary">This is a h1 heading <small>I love bootstrap</small></h1>
-      <h2>This is a h2 heading <small>I love JS</small></h2>
-      <h3>This is a h3 heading <small>Macs are cool</small></h3>
-      <h4>This is a h4 heading <small>Node.js rocks</small></h4>
-      <h5>This is a h5 heading <small><kbd>Front end dev</small></h5>
-      <h6>This is a h6 heading <small><kbd>Back end dev</small></h6>
+ <hr>
 
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
-      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+<!-- Section with 3 three col-md  col-sm -->
 
-  </div>
-   <div class="container">
+
+ <div class="container">
+    <div class="row"> 
+        <code>section with three pieces of content </code>
+    </div>
+<hr>
+
      <div class="row">
-    <div class="col-md-3">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="col-md-3"> 
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="col-md-3"> 
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
- </div>
-    <div class="container">
-      
-    </div>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+       <div class="col-md-4 ">
+         <img src="http://placehold.it/350/FFFF94/7A7A7A" class="img-thumbnail" >
+         <h3>Travel</h3>
+         <p>To go from one place to another, as by car, train, plane, or ship; take a trip; journey: to travel for pleasure..</p>
+       </div>
+
+       <div class="col-md-4 "> 
+         <img src="http://placehold.it/350/66C2FF6/ffffff" class="img-circle" >
+         <h3> Photography </h3>
+         <p>Is the science, art and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film</p>
+       </div>
+       <div class="col-md-4 "> 
+         <img src="http://placehold.it/350/FFFF94/7A7A7A" class="img-thumbnail" >
+         <h3> Video </h3>
+         <p>A sequence of images processed electronically into an analog or digital format and displayed on a screen with sufficient rapidity as to create the illusion of motion and continuity.</p>
+       </div>
+   </div>
+        
+        <!-- Multiple heaings I'm not so sure what do you mean with this but here is some code in case if this is what you mean. 
+
+      <code> 1. Multiple headings to show use of the HTML header hierarchy</code> 
+      <div class="row"> 
+        <div class="col-md-6">
+          <h1 class="text-primary">Heading <small>I love bootstrap</small></h1>
+          <h2> Heading <small class="text-danger">I love JS</small></h2>
+          <h3 class="text-success">Heading <small>Macs are cool</small></h3>
+        </div>
+        <div class="col-md-6">
+          <h4>Heading <small>Node.js rocks</small></h4>
+          <h5>Heading <small><kbd>Front end dev</small></h5>
+          <h6>Heading <small><kbd>Back end dev</small></h6>
+        </div>
+      </div>
+      -->
+
+      <!--   For later
+
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      <div class="col-xs-1" style="background-color:lavender;">sm-1</div>
+      -->
+  </div>
+
+<hr>
+  
     <div class="container">
       <footer>
-        <code>An address and phone numbe</code>
+        <code>Address and phone numbe</code>
+        <hr>
 
         <address>
           <strong>Some Company, Inc.</strong><br>
           007 street<br>
           Far far away city, State XXXXX<br>
-          <abbr title="Phone">P:</abbr> (523) 455-5555
+          <abbr title="Phone"><span class="glyphicon glyphicon-phone"> </span></abbr> (523) 455-5555
         </address>
       </footer>
       </div>
     <script src="js/jquery-1.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <!-- js script-->
+
+       <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
   </body>
 </html>
