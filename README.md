@@ -1,5 +1,5 @@
-# bootstrap demo code
+# Bootstrap demo code
 
-# You can view this website at this link:
+You can view this website at this link:
 
 http://juanjob.info/demo_code/index.html
